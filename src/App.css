@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #0c1c3c, #1a1a4b, #2e2e6a, #000000);
+  background-size: 400% 400%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
